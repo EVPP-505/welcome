@@ -1,0 +1,148 @@
+---
+title: "Welcome to Env Science <br> and the R Language"
+author: "Dr. Enrique L. Monta&ntilde;o"
+date: "24-Jan-2018"
+output: ioslides_presentation
+widescreen: true
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(ggplot2)
+library(knitr)
+```
+
+## Welcome to Env Data & the R Language!!
+
+## About Me
+
+>- My name is Enrique Lugardo Monta&ntilde;o
+>- People also call me Tres, which is 3 in Spanish
+>- Because I’m the 3^rd^ "Henry"
+>- I love dogs
+
+-----------
+
+```{r dogs, out.width="30%"}
+d1 <- c("~/Pictures/puppies/truman.jpg", "~/Pictures/puppies/coco.jpg",
+        "~/Pictures/puppies/stella.jpg")
+include_graphics(d1)
+```
+
+
+## ... still me
+
+I received a PhD in Geographical Sciences from the University of Maryland
+
+>- so now it's ...
+>- **Dr.** Enrique L. Monta&ntilde;o
+
+>- I am remote sensing & geographical scientist
+
+>- I am currently a Mendenhall Fellow - Research Geographer at the USGS
+
+## ... and now
+
+Adjunct Professor  
+Environmental Science and Policy Department  
+George Mason University  
+
+> - This is my **VERY** first class
+
+## Why are we here?
+
+>- To learn R of course!
+
+## But, what is R?
+
+>- That's a silly question!
+>- R is the `r match("R", LETTERS)`^th^ letter of the alphabet.
+
+---------
+
+How do we know that?
+
+Because I used a function to find it
+
+```{r echo=TRUE}
+match("R", LETTERS)
+```
+
+
+## So again, what is R
+
+ >- R is a computing language
+ >- It was born of the S language from Bell Labs in the 1970's
+ >- R became the open source version of S in the 1990's
+ >- It's well known for statistics
+ >- But, modern implementations have become a powerful, multi-purpose language
+ 
+ --------
+ 
+From the [R-Project Webpage](https://www.r-project.org/about.html):
+ 
+> Many users think of R as a statistics system. We prefer to think of it of an environment within which statistical techniques are implemented. R can be extended (easily) via *packages*. There are about eight packages supplied with the R distribution and many more are available through the CRAN family of Internet sites covering a very wide range of modern statistics.
+
+
+## Why R?
+
+>- R provides an integrated environment for data science
+>- That means we can both process and visualize data in the same environment
+>- R is powerful and is **growing**
+>- There is a strong community around R
+>- That means help is available
+>- Most of all, I think R is *approachable*
+
+
+## About class
+
+>- Participation
+>- Ideas
+>- Feedback
+>- Data
+>- Questions
+>- This class is **interactive**, so your engagement will make it better!
+
+
+## Syllabus
+
+Review the [syllabus](evpp505_syllabus.pdf)
+
+---------
+
+One more sleepy dog before we move on...
+
+```{r annie, echo=TRUE, out.width="60%"}
+include_graphics("~/Pictures/puppies/annie.jpg")
+```
+
+
+## Communication 
+
+- Class communication will be via [Class Slack - https://evpp-505envr.slack.com](https://evpp-505envr.slack.com)
+- You should have received an invitation by email
+- Activate that account now if you haven't already
+
+## Let's get started!
+
+- GitHub will be used for class activities
+- [Class Github: https://github.com/EVPP-505](https://github.com/EVPP-505)
+- Your first activity:
+- Create an account on GitHub
+- Send me your account name via Slack
+
+
+## Other Software/Websites
+
+- [R software - https://www.r-project.org](https://www.r-project.org)
+- [RStudio - https://www.rstudio.com](https://www.rstudio.com)
+- [Git - https://git-scm.com](https://git-scm.com)
+- [GitHub - https://github.com](https://github.com)
+- [Class Github: https://github.com/EVPP-505](https://github.com/EVPP-505)
+- [Slack - https://slack.com](https://slack.com)
+- [Class Slack - https://evpp-505envr.slack.com](https://evpp-505envr.slack.com)
+- [Sourcetree - https://www.sourcetreeapp.com/](https://www.sourcetreeapp.com/)
+
+
+
