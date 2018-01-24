@@ -1,0 +1,132 @@
+---
+title: "Environmental Science Data & the R Language Syllabus"
+date: "January 24, 2018"
+output: pdf_document
+latex_engine: xelatex
+mainfont: Arial
+urlcolor: blue
+header-includes: \usepackage{longtable}\setlength{\LTleft}{2em}
+---
+
+## About This Course
+
+Welcome to **Environmental Science Data & the R Language**!
+
+This class is designed to be an introduction to the R language presented in a familar context of environmental data.  The class will develop your skills at solving problems using the R  computing language in a collaborative environment emphasizing reproducible science.  The purpose of the class is for students to gain experience in data wrangling and munging, exploratory data analysis, data visualization, and effective communication of results.  No computing background necessary.
+
+Class time is designed to be as interactive as possible. My role as instructor is to introduce you new tools and techniques, but it is up to you to take them and make use of them.  More specifically, **I expect you, the student**, to develop and ask questions of **your own data, research, or interests**.  Programming is a skill that is best learned by doing, so as much as possible you will be working on a variety of tasks and activities throughout each class.
+
+
+## Course Information
+
+|
+:------ | ------
+Course: | EVPP 505 - 006
+When: | Wednesdays, 4:30 - 7:10pm
+Where: | Innovation Hall 205
+Who: | Dr. Enrique Monta&ntilde;o
+email: | emontan@gmu.edu
+Phone: | By request
+Office Hours: | Wednesdays 2-4pm
+Location: | TBD
+
+
+## Materials and Policy
+
+The use of laptop computers is **strongly encouraged** in this class. If you do not own a laptop, a computer will be made available during class time. You will only be permitted to work on material related to the class, however. Engaging in activities not related to the course (e.g., gaming, email, chat, etc.) will result in a significant deduction in your participation grade.  Such disruptions show a lack of professionalism and may affect your participation grade.
+
+### Texts
+
+All texts are freely available online:
+
+Text | Author
+--------------------------------------------------- | -------------
+[R for Data Science - http://r4ds.had.co.nz/index.html](http://r4ds.had.co.nz/index.html) | Grolemund and Wickham
+[R Programming for Data Science - https://bookdown.org/rdpeng/rprogdatascience/](https://bookdown.org/rdpeng/rprogdatascience/) | Peng
+[Efficient R Programming - https://csgillespie.github.io/efficientR/](https://csgillespie.github.io/efficientR/) | Gillespie and Lovelace
+[Pro Git - https://git-scm.com/book/en/v2](https://git-scm.com/book/en/v2) | Chacon and Straub
+
+### Software
+
+- [R software - https://www.r-project.org](https://www.r-project.org)
+- [RStudio - https://www.rstudio.com](https://www.rstudio.com)
+- [Git - https://git-scm.com](https://git-scm.com)
+- [GitHub - https://github.com](https://github.com)
+- [Slack - https://slack.com](https://slack.com)
+- [Sourcetree - https://www.sourcetreeapp.com/](https://www.sourcetreeapp.com/)
+
+
+## Communication
+
+All course communication will be via Slack. You will receive an email with an invitation link to join the course Slack. All official communications (e.g. grades or specific individual questions) should be made using a GMU email.
+
+Some rules for using Slack:
+
+* Use an identifiable username and add your picture to your profile.
+* Only the professor is allowed to use the **@channel** and **@here** mentions.
+* While this is an informal communication channel, all rules of academic discourse apply.
+* Ask and answer questions on the appropriate channel.
+* Create channels as needed, especially one for each team.
+
+## Grading
+
+|
+:------- | -----
+Participation | 40%
+Homework | 20%
+Midterm Project | 20%
+Final Project | 20%
+
+
+## Academic Integrity
+
+As in many classes, a number of projects in this class are designed to be completed within your study group. With collaborative work, names of all the participants should appear on the work. Collaborative projects may be divided up so that individual group members complete portions of the whole, provided that group members take sufficient steps to ensure that the pieces conceptually fit together in the end product. Other projects are designed to be undertaken independently. In the latter case, you may discuss your ideas with others and conference with peers on drafts of the work; however, it is not appropriate to give your paper to someone else to revise. You are responsible for making certain that there is no question that the work you hand in is your own. If only your name appears on an assignment, your professor has the right to expect that you have done the work yourself, fully and independently.
+
+**A note on sharing / reusing code** - I am well aware that a huge volume of code is available on the web to solve any number of problems. Unless I explicitly tell you not to use something the course's policy is that you may make use of any online resources (e.g. StackOverflow) but you must explicitly cite where you obtained any code you directly use (or use as inspiration). Any recycled code that is discovered and is not explicitly cited will be treated as plagiarism. The one exception to this rule is that you may not directly share code with another team in this class, you are welcome to discuss the problems together and ask for advice, but you may not send or make use of code from another team.
+
+
+## Diversity
+
+George Mason University promotes a living and learning environment for outstanding growth and productivity among its students, faculty and staff.  An emphasis upon diversity and inclusion throughout the campus community is essential to achieve these goals.  Diversity is broadly defined to include such characteristics as, but not limited to, race, ethnicity, gender, religion, age, disability, and sexual orientation.  Diversity also entails different viewpoints, philosophies, and perspectives.  Attention to these aspects of diversity will help promote a culture of inclusion and belonging, and an environment where diverse opinions, backgrounds and practices have the opportunity to be voiced, heard and respected.
+
+## Accomodations
+
+If you are a student with a disability and you need academic accommodations, please see me and contact Disability Services at 993-2474, [http://ds.gmu.edu](http://ds.gmu.edu). All academic accommodations must be arranged through Disability Services.
+
+
+## Sexual Harassment, Sexual Misconduct, and Interpersonal Violence
+
+As a faculty member and designated "Responsible Employee," I am required to report all disclosures of sexual assault, interpersonal violence, and stalking to [Mason’s Title IX Coordinator per university policy 1412](https://universitypolicy.gmu.edu/policies/reporting-of-clery-act-crimes-andor-prohibited-sexual-conduct/). If you wish to speak with someone confidentially, please contact the [Student Support and Advocacy Center](http://ssac.gmu.edu/) (703-380-1434), [Counseling and Psychological Services](https://caps.gmu.edu/) (703-993-2380), [Student Health Services](http://shs.gmu.edu/), or [Mason’s Title IX Coordinator](https://diversity.gmu.edu/title-ix) (703-993-8730; cde@gmu.edu).
+
+
+## Privacy
+
+Students must use their MasonLive email account to receive important University information, including communications related to this class. I will not respond to messages sent from or send messages to a non-Mason email address.
+
+\newpage
+
+## Schedule
+
+The following schedule is preliminary and subject to revision
+
+Date | Topic
+-------- | --------------------------------
+24-Jan-2018 | Welcome! Introduction and setup
+31-Jan-2018 | Git - Teams
+7-Feb-2018 | Basic Data Types / Data Objects
+14-Feb-2018 | Data Import / Indexing and Filtering
+21-Feb-2018 | Functions / Iteration / Flow control
+28-Feb-2018 | Strings
+7-Mar-2018 | Mid-Term Project Presentations
+14-Mar-2018 | Spring Break
+21-Mar-2018 | No Class (ESRI User Conference)
+28-Mar-2018 | Visualizations
+4-Apr-2018 | Tidy Data / Data Wrangling
+11-Apr-2018 | Finding Data / APIs and Web Scraping
+18-Apr-2018 | TBD
+25-Apr-2018 | TBD
+2-May-2018 | Final Project Presentations
+
+
+
+
