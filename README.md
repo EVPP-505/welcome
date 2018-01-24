@@ -4,12 +4,14 @@ This is a repository (repo) with some material about the class.  We will talk mo
 
 ## Class Info
 
-|
+Variable | Value
 --------- | ---------
 Instructor | Dr. Enrique Monta&ntilde;o
 Location | Innovation Hall 205
 Day/Time | Wednesdays 4:30 - 7:10pm
-Contact | emontan@gmu.edu
+Contact | emontan@gmu.edu / @emontan (Slack)
+Slack Workspace | evpp-505envr.slack.com
+
 
 ## Some useful links for GitHub
 
